@@ -1,0 +1,1 @@
+/Users/mciorobe/.git-completion.bash

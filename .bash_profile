@@ -10,8 +10,12 @@ function parse_git_branch () {
 }
 
 ##############################################################
+### Java
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+
+##############################################################
 ### Utils
-####### ls
+####### Alias
 alias ls="ls -la"
 ####### Finder show hidden files
 defaults write com.apple.finder AppleShowAllFiles YES
